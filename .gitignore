@@ -1,4 +1,10 @@
+# ignorando arquivos
+.gitignore
+
+# ignorando Pastas
 /.idea/
 /out/
 /External Libraries/
+
+# ignorando por extensão
 *.iml

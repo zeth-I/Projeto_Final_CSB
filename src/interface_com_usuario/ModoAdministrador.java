@@ -111,12 +111,15 @@ public class ModoAdministrador {
 
         Impressora.msgBasica("Nome do Beneficiário:");
         var nome = Leitor.lerString();
-
+        /*
         Impressora.msgBasica("Data de nascimento do Beneficiário:");
+        Impressora.msgBasica("Escreva nesse formato dd/MM/yyyy");
         var BirthDate = Leitor.lerString();
 
         Impressora.msgBasica("CPF do Beneficiário:");
+        Impressora.msgBasica("Escreva nesse formato XXX.XXX.XXX-XX");
         var CPF = Leitor.lerString();
+         */
 
         Impressora.msgBasica("Senha do Beneficiário (6 dígitos):");
         var senha = Leitor.lerArrayDeDigitos(6);

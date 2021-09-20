@@ -20,7 +20,11 @@ public class Beneficiario {
     /** -------------------------------------------------------------
     /** CONSTRUTOR */
 
-    public Beneficiario(String _nome, char[] _senha, ArrayList<CartaoBeneficio> _listaCartoes) {
+    public Beneficiario(
+            String _nome,
+            char[] _senha,
+            ArrayList<CartaoBeneficio> _listaCartoes) {
+
         this.nome = _nome;
         this.senha = _senha;
         this.listaCartoes = _listaCartoes;

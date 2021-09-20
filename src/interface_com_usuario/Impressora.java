@@ -58,7 +58,7 @@ public class Impressora {
 
     /** O que aparece para que o usuário entenda que deve digitar algo */
     public static void inputFlag(){
-        System.out.print(espacoIndentacao() + "> ");
+        System.out.print(espacoIndentacao() + "-> ");
     }
 
     /** Imprime uma longa linha na tela */
